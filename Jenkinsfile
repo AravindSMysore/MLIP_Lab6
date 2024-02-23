@@ -21,8 +21,8 @@ pipeline {
                 # TODO Complete the command to run pytest
                 sudo /home/team17/miniconda3/bin/conda run -n mlip pytest
 
-                # echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                echo 'test cases passed'
+                # exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
